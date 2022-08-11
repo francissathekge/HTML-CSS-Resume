@@ -1,0 +1,247 @@
+
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    
+    background: rgb(41, 94, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: gainsboro;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+.container .left_side
+{
+position: relative;
+background: rgb(1, 1, 78);
+padding: 10px;
+}
+.profile
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 10px;
+border-bottom: 1px solid rgba(255,255,255,0.2) ;
+}
+.profile .img1
+{
+position: relative;
+width: 150px;
+height: 150px;
+border-radius: 40%;
+overflow: hidden;
+}
+.profile .img1 img
+{
+  position:absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.profile h2
+{
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+.profile h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contact
+{ 
+    padding-top: 1px;
+
+}
+.con
+{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+
+}
+.int ul
+{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.int ul li .icon
+{
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.contact ul
+{
+    position: relative; 
+    
+}
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    
+    
+    
+    
+}  
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: aqua;
+    
+}
+.contact ul li span
+{
+    color: whitesmoke;
+    font-weight: 300;
+    
+}
+.contact.edu li
+{
+margin-bottom: 1px;
+
+}
+.contact.edu h5
+{
+    color: aqua; 
+    font-weight: 500;
+}
+.contact.edu h4
+{
+   color: whitesmoke; 
+   font-weight: 300;
+}
+.contact.lang
+{
+   color: whitesmoke; 
+   font-weight: 300;
+}
+.contact.lang .percent
+{
+position: relative;
+width: 100%;
+height: 6px;
+background: rgb(0, 0, 0);
+display: block;
+
+}
+.contact.lang .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+}
+.container .right_side
+{
+    position: relative;
+    background: whitesmoke;
+    padding: 40px;
+}
+.about:last-child
+{
+   margin-bottom: 0;
+}
+.abt
+{
+ color: rgb(0, 3, 67);
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ margin-bottom: 10px;
+}
+p
+{
+color: black;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0x;
+}
+.about .box .inst 
+{
+    min-width: 150px;
+}
+.about .box .inst h5
+{
+    color: rgb(173, 169, 169);  
+    font-weight: 600;
+}
+.about .box .text
+{
+    
+    color: aqua;
+    font-size: 16px;
+}
+.skill .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.skill .box h4
+{
+    text-transform: uppercase;
+    color: rgb(173, 169, 169);
+    font-weight: 500;
+}
+.skill .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgba(79, 79, 81, 0.078);
+}
+.skill .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+}
+
